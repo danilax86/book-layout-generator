@@ -30,12 +30,14 @@ The script supports the following options:
 
 ### Before
 <img src="pages/0.png" width="200" />
+<img src="pages/1.png" width="200" />
 <img src="pages/2.png" width="200" />
 <img src="pages/3.png" width="200" />
 <img src="pages/4.png" width="200" />
 
 ### After
 <img src="out/0.png" width="200" />
+<img src="out/1.png" width="200" />
 <img src="out/2.png" width="200" />
 <img src="out/3.png" width="200" />
 <img src="out/4.png" width="200" />

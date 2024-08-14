@@ -88,7 +88,10 @@ def save_images_from_page_blocks(page_blocks, path):
 
     for i in range(len(page_blocks)):
         combined = combine_images(page_blocks[i].left.file, page_blocks[i].right.file)
-        save_image(combined, path + '/' + str(i) + '.png')
+        if i % 2 == 0:
+            save_image(combined, path + '/' + str(len(page_blocks) - i - 1) + '.png')
+        else:
+            save_image(combined, path + '/' + str(i) + '.png')
 
 
 def main():

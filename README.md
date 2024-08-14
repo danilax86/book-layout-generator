@@ -29,18 +29,20 @@ The script supports the following options:
 ## Process
 
 ### Before
-![0.png](pages/0.png)
-![1.png](pages/1.png)
-![2.png](pages/2.png)
-![3.png](pages/3.png)
-![4.png](pages/4.png)
+<img src="pages/0.png" width="200" />
+<img src="pages/2.png" width="200" />
+<img src="pages/3.png" width="200" />
+<img src="pages/4.png" width="200" />
 
 ### After
-![0.png](out/0.png)
-![1.png](out/1.png)
-![2.png](out/2.png)
-![3.png](out/3.png)
-![4.png](out/4.png)
+<img src="out/0.png" width="200" />
+<img src="out/2.png" width="200" />
+<img src="out/3.png" width="200" />
+<img src="out/4.png" width="200" />
+
+Print pages according their output numbers:
+1. Print page 0, then flip a piece of paper and print page 1.
+2. Take another piece of paper and print page 2, then flip and print page 3.
 
 ## Contributing
 

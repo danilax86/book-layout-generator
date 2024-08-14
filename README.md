@@ -2,6 +2,11 @@
 
 A Python script to generate a book layout from a set of PNG images.
 
+## Problem
+The problem was that I designed a zine in Penpot.
+The result was separate blocks of A4 size in PNG. A4 is a spread of two A5 pages.
+I thought I'd cut these spreads to pages in a correct order via Photoshop quickly, but I couldn't figure out the fast way and decided to create this script.
+
 ## Installation
 
 To use this project, you'll need to have Python and the Pillow library installed on your system.

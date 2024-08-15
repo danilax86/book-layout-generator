@@ -17,21 +17,12 @@ class Page:
     num: int
     file: ImageFile
 
-    def __init__(self, num, file):
-        self.num = num
-        self.file = file
-
 
 @dataclass
 class PageBlock:
     left: Page
     right: Page
     filePath: str = ""
-
-    def __init__(self, left, right, file_path=""):
-        self.left = left
-        self.right = right
-        self.filePath = file_path
 
 
 def get_png_files(dir_path):
